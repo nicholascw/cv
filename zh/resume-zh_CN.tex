@@ -1,0 +1,71 @@
+% !TEX TS-program = xelatex
+% !TEX encoding = UTF-8 Unicode
+% !Mode:: "TeX:UTF-8"
+
+\documentclass{resume}
+\usepackage{zh_CN-Adobefonts_external} % Simplified Chinese Support using external fonts (./fonts/zh_CN-Adobe/)
+% \usepackage{NotoSansSC_external}
+% \usepackage{NotoSerifCJKsc_external}
+% \usepackage{zh_CN-Adobefonts_internal} % Simplified Chinese Support using system fonts
+\usepackage{linespacing_fix} % disable extra space before next section
+\usepackage{cite}
+
+\begin{document}
+\pagenumbering{gobble} % suppress displaying page number
+
+\name{汪晨凯}
+
+\basicInfo{
+  \email{me@nicho1as.wang} \textperiodcentered\
+  \phone{+1 (256)414-2048} \textperiodcentered\ 
+  \github[nicholascw]{https://www.github.com/nicholascw}}
+ 
+\section{\faGraduationCap\  教育背景}
+\datedsubsection{\textbf{伊利诺伊大学厄巴纳香槟(UIUC)}}{2017 -- 至今}
+学士\ \textit{主修}\ 地理信息系统\ \textit{辅修}\ 计算机科学, 预计 2021 年 6 月毕业
+
+\section{\faUsers\ 工作经历}
+\datedsubsection{\textbf{合肥拓诚模具技术有限公司}}{2016年12月--2020年6月}
+\role{嵌入式系统软、硬件开发}\
+\begin{itemize}
+  \item 完成基于 STM32 和 AVR 架构的嵌入式 PCB 设计
+  \item 应用 PID 技术实现精确闭环控制
+  \item 基于 Qt/C++ 开发上位机控制系统
+\end{itemize}
+
+\datedsubsection{\textbf{UIUC CS125 计算机科学导论}}{2018年1月 -- 2018年5月}
+\role{课程助教}{Java 和基础算法、数据结构}
+\begin{itemize}
+  \item 负责实验课程，答疑和作业设计
+  \item 考试题目测试
+\end{itemize}
+
+\datedsubsection{\textbf{SLOWProxy 开源网络代理软件}}{2019年12月 -- 至今}
+\role{开发}{使用 C 开发，运行于 Linux 环境}
+\begin{itemize}
+  \item 基于 TOML 灵活配置拓展
+  \item 支持 AES 加密和
+  \item 动态 GPG 密钥分发和鉴权
+  \item 支持 Zstd 压缩
+  \item 灵活的输入输出方式：TUN/TAP, TCP, UDP, SOCKS5, PROXYv1/v2
+\end{itemize}
+
+\datedsubsection{\textbf{V2Ray 开源网络代理软件}}{2016年 -- 至今}
+\role{项目维护}\
+\begin{itemize}
+  \item Issue 管理
+  \item 文档更新、翻译
+  \item 新特性可行性评估
+  \item 贡献代码评审
+\end{itemize}
+
+\section{\faCogs\ 技能}
+% increase linespacing [parsep=0.5ex]
+\begin{itemize}[parsep=0.5ex]
+  \item 编程语言: C, C++, Shell Script, PHP, Java, Python, Javascript (熟练度由高到低）
+  \item 接触过平台: Linux, UNIX, Qt, GTK, Android
+  \item 语言: 熟练使用英语交流
+  \item 安全工程：系统学习计算机安全课程；曾发现学校考试系统两项可利用漏洞；曾发现学校邮件系统鉴权绕过漏洞
+\end{itemize}
+
+\end{document}

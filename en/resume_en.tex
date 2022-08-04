@@ -1,0 +1,78 @@
+% !TEX TS-program = xelatex
+% !TEX encoding = UTF-8 Unicode
+% !Mode:: "TeX:UTF-8"
+
+\documentclass{resume}
+\usepackage{zh_CN-Adobefonts_external} % Simplified Chinese Support using external fonts (./fonts/zh_CN-Adobe/)
+% \usepackage{NotoSansSC_external}
+% \usepackage{NotoSerifCJKsc_external}
+% \usepackage{zh_CN-Adobefonts_internal} % Simplified Chinese Support using system fonts
+\usepackage{linespacing_fix} % disable extra space before next section
+\usepackage{cite}
+
+\begin{document}
+\pagenumbering{gobble} % suppress displaying page number
+
+\name{Chenkai (Nicholas) Wang}
+
+\basicInfo{
+  \email{me@nicho1as.wang} \textperiodcentered\
+  \phone{+1 (256)414-2048} \textperiodcentered\ 
+  \github[nicholascw]{https://www.github.com/nicholascw}}
+ 
+\section{\faGraduationCap\  Education}
+\datedsubsection{\textbf{University of Illinois at Urbana-Champaign}}{2017 -- 2021}
+Becholar of Science
+
+Major in Geography and Geographic Information Science (GGIS)
+
+Minor in Computer Science
+
+\datedsubsection{\textbf{University of Illinois at Urbana-Champaign}}{2021 -- Present}
+Masters of Science in Computer Science
+
+\section{\faUsers\ Experience}
+\datedsubsection{\textbf{NICHONET BGP Autonomous Systems}}{May, 2021 -- Present}
+\role{Network Operator of AS142130, AS142282}\
+NICHONET is a personal IPv6-only overlay network for research and education purposes, it applies popular technologies including WireGuard, BGP, Babel as well as a custom-made dynamic node configuration daemon.
+
+\datedsubsection{\textbf{Computer Security Research}}{Jul, 2020 -- Present}
+\role{Research Assistant}\
+Conducted computer security research focused on ARC protocol (RFC8617), an security extension for E-mail services with Professor Gang Wang (https://gangw.cs.illinois.edu)
+
+\datedsubsection{\textbf{Hefei Tuocheng Mould Technology Co., Ltd.}}{2016 -- 2019}
+\role{Embedded System Developer}\
+* Part-time during semesters, full-time in summers and winters.
+\begin{itemize}
+  \item Design ARM and AVR-based embedded systems' PCBs
+  \item Develop PID motion control firmware for embedded systems
+  \item Develop controlling software based on Qt/C++
+\end{itemize}
+
+\datedsubsection{\textbf{UIUC CS125 Course}}{Jan, 2018 -- May, 2018}
+\role{Course Assistant}{Java-based Intro to Computer Science course}
+\begin{itemize}
+  \item Develop assignments and exams
+  \item Answer questions
+\end{itemize}
+
+\datedsubsection{\textbf{b23.wtf Tracking-resistant Link-shortening Service}}{2021 -- Present}
+\role{Author}\ Simple open-source solution to b23.tv's tracing information
+\begin{itemize}
+\item Actively maintained with source on \github[GitHub]{https://github.com/nicholascw/b23.wtf}
+\item Single-thread HTTP Server with no dependencies written in C, utilizes epoll()
+\item pthread managed parallel HTTP Client query module
+\end{itemize}
+
+\datedsubsection{\textbf{V2Ray Open-source Proxy software}}{2016 -- Present}
+\role{Contributor / Maintainer}\
+
+\section{\faCogs\ Skills}
+% increase linespacing [parsep=0.5ex]
+\begin{itemize}[parsep=0.5ex]
+  \item Programming Languages: C, C++, Shell Script, PHP, Python, Javascript (Experience from high to low）
+  \item Platfrom I familiar with: Linux, UNIX, Qt, GTK, Arduino, STM32
+  \item Language: English (fluent), Mandarin (native language)
+\end{itemize}
+
+\end{document}
